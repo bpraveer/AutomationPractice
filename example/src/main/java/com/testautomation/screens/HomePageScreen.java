@@ -28,7 +28,7 @@ public class HomePageScreen {
 	public WebElement btnLogin;
 	
 	public void login(String uname, String pwd) {
-		//Auto-generated method stub
+		
 		elmEmail.clear();
 		elmEmail.sendKeys(uname);
 		elmPassword.clear();
