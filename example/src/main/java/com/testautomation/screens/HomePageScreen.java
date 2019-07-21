@@ -12,10 +12,10 @@ public class HomePageScreen {
 	//Initializing driver
 	public WebDriver driver;
 	
-	String URL= "https://www.facebook.com/";
+	String URL= "https://www.facebook.com/";//assigning url
 	
 	public HomePageScreen(WebDriver driver) {
-		// Auto-generated constructor stub
+		// Auto-generated constructor stub cdgg
 		this.driver=driver;
 		driver.get(URL);
 		PageFactory.initElements(driver, this);
